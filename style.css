@@ -1,0 +1,68 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 20px;
+  background-color: ghostwhite;
+  border: 2px solid rgb(80, 80, 150);
+  border-radius: 10px;
+}
+
+h3 {
+  background-color: rgb(80, 80, 150);
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 25px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+table {
+  width: 100%;
+  font-size: 18px;
+}
+
+th,
+td {
+  padding: 5px;
+}
+
+tr:hover {
+  background-color: rgb(221, 217, 217);
+}
+
+td:nth-child(3) {
+  color: grey;
+}
+
+td:nth-child(4) {
+  color: rgb(33, 122, 33);
+}
+
+span {
+  margin-right: 15px;
+}
+
+td:nth-child(5) {
+  color: grey;
+}
+
+th {
+  border-bottom: 3px solid grey;
+}
+
+tr,
+table {
+  border-bottom: 1px solid grey;
+  border-collapse: collapse;
+}
+
+.fa:hover {
+  color: rgb(42, 42, 218);
+}
